@@ -1,0 +1,2270 @@
+[
+  {
+    "nodes": 20,
+    "scenario": "environment",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 4.8611111111103905e-05,
+    "ci95": [
+      -3.729781284724137e-05,
+      0.0001345200350694492
+    ],
+    "wilcoxon_p": 0.2986641138653696,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 20,
+    "scenario": "environment",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07567361111111111,
+    "ci95": [
+      0.07051609347509118,
+      0.08083112874713104
+    ],
+    "wilcoxon_p": 1.7322162331441138e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "environment",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 4.8611111111103905e-05,
+    "ci95": [
+      -3.729781284724137e-05,
+      0.0001345200350694492
+    ],
+    "wilcoxon_p": 0.2986641138653696,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 20,
+    "scenario": "environment",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.06413194444444441,
+    "ci95": [
+      0.06385703133326597,
+      0.06440685755562285
+    ],
+    "wilcoxon_p": 1.6312058170144031e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "environment",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": -0.00044444444444444474,
+    "ci95": [
+      -0.005194922786886694,
+      0.004306033897997805
+    ],
+    "wilcoxon_p": 0.7035263576198294,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 20,
+    "scenario": "environment",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.061159722222222206,
+    "ci95": [
+      0.060825475714416564,
+      0.06149396873002785
+    ],
+    "wilcoxon_p": 1.6933411124690758e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "high_latency",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 3.472222222221655e-05,
+    "ci95": [
+      -0.00010545899072729552,
+      0.00017490343517172864
+    ],
+    "wilcoxon_p": 0.7957286473272823,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 20,
+    "scenario": "high_latency",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.0911631205673759,
+    "ci95": [
+      0.0859657934712865,
+      0.0963604476634653
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "high_latency",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 3.472222222221655e-05,
+    "ci95": [
+      -0.00010545899072729552,
+      0.00017490343517172864
+    ],
+    "wilcoxon_p": 0.7957286473272823,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 20,
+    "scenario": "high_latency",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.005826388888888875,
+    "ci95": [
+      0.003992230845111282,
+      0.007660546932666467
+    ],
+    "wilcoxon_p": 1.3786324171011328e-05,
+    "holm_p": 0.0006755298843795551
+  },
+  {
+    "nodes": 20,
+    "scenario": "high_latency",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07579432624113473,
+    "ci95": [
+      0.07115865990939135,
+      0.08042999257287811
+    ],
+    "wilcoxon_p": 1.7322162331441138e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "high_latency",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.005826388888888875,
+    "ci95": [
+      0.003992230845111282,
+      0.007660546932666467
+    ],
+    "wilcoxon_p": 1.3786324171011328e-05,
+    "holm_p": 0.0006755298843795551
+  },
+  {
+    "nodes": 20,
+    "scenario": "intermittent",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.01799999999999999,
+    "ci95": [
+      -0.018099245817653823,
+      -0.01790075418234616
+    ],
+    "wilcoxon_p": 1.600349795648682e-06,
+    "holm_p": 0.00020804547343432865
+  },
+  {
+    "nodes": 20,
+    "scenario": "intermittent",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.09225638865487222,
+    "ci95": [
+      0.08721437121342798,
+      0.09729840609631646
+    ],
+    "wilcoxon_p": 1.7278603148724105e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "intermittent",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.028402777777777763,
+    "ci95": [
+      -0.028499323489087493,
+      -0.028306232066468033
+    ],
+    "wilcoxon_p": 1.6374363013972623e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "intermittent",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.014944444444444442,
+    "ci95": [
+      -0.015243952218625581,
+      -0.014644936670263304
+    ],
+    "wilcoxon_p": 1.6826727426224771e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "intermittent",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07581437798371242,
+    "ci95": [
+      0.07134529314461814,
+      0.0802834628228067
+    ],
+    "wilcoxon_p": 1.7322162331441138e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "intermittent",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.016277777777777756,
+    "ci95": [
+      -0.016565777169898974,
+      -0.015989778385656538
+    ],
+    "wilcoxon_p": 1.6332804398014524e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "multiple",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.17433333333333334,
+    "ci95": [
+      0.1739281296444736,
+      0.17473853702219308
+    ],
+    "wilcoxon_p": 1.7040659206732472e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "multiple",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.11919259259259259,
+    "ci95": [
+      0.11400626539132104,
+      0.12437891979386413
+    ],
+    "wilcoxon_p": 1.7300371292901247e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "multiple",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.1539305555555556,
+    "ci95": [
+      0.1535298400752868,
+      0.1543312710358244
+    ],
+    "wilcoxon_p": 1.7170105183845441e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "multiple",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.0064513888888888945,
+    "ci95": [
+      -0.007931850697359204,
+      -0.004970927080418585
+    ],
+    "wilcoxon_p": 3.5027435919201164e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "multiple",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.10396296296296295,
+    "ci95": [
+      0.09938521044711182,
+      0.10854071547881408
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 20,
+    "scenario": "multiple",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.006597222222222217,
+    "ci95": [
+      -0.008007642094340114,
+      -0.0051868023501043204
+    ],
+    "wilcoxon_p": 2.8699254211574397e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "node_failure",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.18504861111111112,
+    "ci95": [
+      0.18465369206735602,
+      0.18544353015486623
+    ],
+    "wilcoxon_p": 1.7170105183845441e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "node_failure",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.09075886524822695,
+    "ci95": [
+      0.08557827664535636,
+      0.09593945385109753
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "node_failure",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.18504861111111112,
+    "ci95": [
+      0.18465369206735602,
+      0.18544353015486623
+    ],
+    "wilcoxon_p": 1.7170105183845441e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "node_failure",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.0034652777777777794,
+    "ci95": [
+      0.0015899404606933524,
+      0.005340615094862207
+    ],
+    "wilcoxon_p": 0.0012390210018559111,
+    "holm_p": 0.05327790307980418
+  },
+  {
+    "nodes": 20,
+    "scenario": "node_failure",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.0758014184397163,
+    "ci95": [
+      0.07118682289467233,
+      0.08041601398476027
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "node_failure",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.0034652777777777794,
+    "ci95": [
+      0.0015899404606933524,
+      0.005340615094862207
+    ],
+    "wilcoxon_p": 0.0012390210018559111,
+    "holm_p": 0.05327790307980418
+  },
+  {
+    "nodes": 20,
+    "scenario": "noise",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.013583333333333343,
+    "ci95": [
+      -0.013801842280674803,
+      -0.013364824385991883
+    ],
+    "wilcoxon_p": 1.6965526182776899e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "noise",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.08523404255319149,
+    "ci95": [
+      0.0801369389718248,
+      0.09033114613455817
+    ],
+    "wilcoxon_p": 1.7311263949197288e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "noise",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.030604166666666658,
+    "ci95": [
+      -0.030754777422085457,
+      -0.03045355591124786
+    ],
+    "wilcoxon_p": 1.6773596492011907e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "noise",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.00998611111111111,
+    "ci95": [
+      -0.010280701294283478,
+      -0.009691520927938744
+    ],
+    "wilcoxon_p": 1.5410884614417123e-06,
+    "holm_p": 0.0002018825884488643
+  },
+  {
+    "nodes": 20,
+    "scenario": "noise",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07009929078014185,
+    "ci95": [
+      0.06556876690689178,
+      0.07462981465339191
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 20,
+    "scenario": "noise",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.010736111111111097,
+    "ci95": [
+      -0.011051766162432194,
+      -0.010420456059790001
+    ],
+    "wilcoxon_p": 1.6520514784596899e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "normal",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 4.8611111111103905e-05,
+    "ci95": [
+      -3.729781284724137e-05,
+      0.0001345200350694492
+    ],
+    "wilcoxon_p": 0.2986641138653696,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 20,
+    "scenario": "normal",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07567361111111111,
+    "ci95": [
+      0.07051609347509118,
+      0.08083112874713104
+    ],
+    "wilcoxon_p": 1.7322162331441138e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "normal",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 4.8611111111103905e-05,
+    "ci95": [
+      -3.729781284724137e-05,
+      0.0001345200350694492
+    ],
+    "wilcoxon_p": 0.2986641138653696,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 20,
+    "scenario": "normal",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 9.027777777778448e-05,
+    "ci95": [
+      -0.00019695978983164184,
+      0.00037751534538721084
+    ],
+    "wilcoxon_p": 0.7194255384002852,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 20,
+    "scenario": "normal",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.06065972222222222,
+    "ci95": [
+      0.05608443860990504,
+      0.0652350058345394
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 20,
+    "scenario": "normal",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 9.027777777778448e-05,
+    "ci95": [
+      -0.00019695978983164184,
+      0.00037751534538721084
+    ],
+    "wilcoxon_p": 0.7194255384002852,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 20,
+    "scenario": "packet_loss",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.1351111111111111,
+    "ci95": [
+      0.13397737293856452,
+      0.13624484928365768
+    ],
+    "wilcoxon_p": 1.7289484360195754e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "packet_loss",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.08943971631205674,
+    "ci95": [
+      0.08427719144646854,
+      0.09460224117764494
+    ],
+    "wilcoxon_p": 1.7300371292901247e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "packet_loss",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.1351111111111111,
+    "ci95": [
+      0.13397737293856452,
+      0.13624484928365768
+    ],
+    "wilcoxon_p": 1.7289484360195754e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "packet_loss",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.04266666666666666,
+    "ci95": [
+      0.04020634934047097,
+      0.04512698399286234
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "packet_loss",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07448226950354611,
+    "ci95": [
+      0.0698840699334461,
+      0.07908046907364612
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "packet_loss",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.04266666666666666,
+    "ci95": [
+      0.04020634934047097,
+      0.04512698399286234
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "sensor_bias",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.010770833333333337,
+    "ci95": [
+      -0.010897017098989128,
+      -0.010644649567677546
+    ],
+    "wilcoxon_p": 1.6085299536628732e-06,
+    "holm_p": 0.00020804547343432865
+  },
+  {
+    "nodes": 20,
+    "scenario": "sensor_bias",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.08572340425531914,
+    "ci95": [
+      0.08063434562824878,
+      0.0908124628823895
+    ],
+    "wilcoxon_p": 1.7311263949197288e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "sensor_bias",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.031173611111111114,
+    "ci95": [
+      -0.03129868749452955,
+      -0.03104853472769268
+    ],
+    "wilcoxon_p": 1.6332804398014524e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "sensor_bias",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.010305555555555552,
+    "ci95": [
+      -0.010613175081847084,
+      -0.00999793602926402
+    ],
+    "wilcoxon_p": 1.5214213151348069e-06,
+    "holm_p": 0.0002008276135977945
+  },
+  {
+    "nodes": 20,
+    "scenario": "sensor_bias",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07054609929078014,
+    "ci95": [
+      0.06602813417922253,
+      0.07506406440233775
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 20,
+    "scenario": "sensor_bias",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.010451388888888894,
+    "ci95": [
+      -0.010746085309383594,
+      -0.010156692468394193
+    ],
+    "wilcoxon_p": 1.6457745401868774e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "environment",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 3.0555555555544786e-05,
+    "ci95": [
+      -9.537547922188262e-05,
+      0.00015648659033297218
+    ],
+    "wilcoxon_p": 0.3658342917829085,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "environment",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07318888888888889,
+    "ci95": [
+      0.06926579235167431,
+      0.07711198542610347
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 50,
+    "scenario": "environment",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 3.0555555555544786e-05,
+    "ci95": [
+      -9.537547922188262e-05,
+      0.00015648659033297218
+    ],
+    "wilcoxon_p": 0.3658342917829085,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "environment",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.02564166666666666,
+    "ci95": [
+      0.025544237354627915,
+      0.025739095978705405
+    ],
+    "wilcoxon_p": 1.7137666960733877e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "environment",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.03392777777777778,
+    "ci95": [
+      0.030376273571714206,
+      0.03747928198384135
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 50,
+    "scenario": "environment",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.024472222222222218,
+    "ci95": [
+      0.024352307685048074,
+      0.024592136759396362
+    ],
+    "wilcoxon_p": 1.6762987141123663e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "high_latency",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 3.0555555555544786e-05,
+    "ci95": [
+      -9.537547922188262e-05,
+      0.00015648659033297218
+    ],
+    "wilcoxon_p": 0.3658342917829085,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "high_latency",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07980112044817927,
+    "ci95": [
+      0.075870874795276,
+      0.08373136610108255
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "high_latency",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 3.0555555555544786e-05,
+    "ci95": [
+      -9.537547922188262e-05,
+      0.00015648659033297218
+    ],
+    "wilcoxon_p": 0.3658342917829085,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "high_latency",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 2.222222222220497e-05,
+    "ci95": [
+      -6.801327736638514e-05,
+      0.00011245772181079508
+    ],
+    "wilcoxon_p": 0.7720739950245594,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "high_latency",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.0648235294117647,
+    "ci95": [
+      0.06130561740753193,
+      0.06834144141599746
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "high_latency",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 2.222222222220497e-05,
+    "ci95": [
+      -6.801327736638514e-05,
+      0.00011245772181079508
+    ],
+    "wilcoxon_p": 0.7720739950245594,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "intermittent",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.007194444444444448,
+    "ci95": [
+      -0.007320335702453792,
+      -0.0070685531864351035
+    ],
+    "wilcoxon_p": 1.7083716990437346e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "intermittent",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.0800747684410222,
+    "ci95": [
+      0.07618514091982465,
+      0.08396439596221975
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "intermittent",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.011349999999999997,
+    "ci95": [
+      -0.011475377450153895,
+      -0.0112246225498461
+    ],
+    "wilcoxon_p": 1.707294403549849e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "intermittent",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.006030555555555562,
+    "ci95": [
+      -0.006137877806342176,
+      -0.005923233304768947
+    ],
+    "wilcoxon_p": 1.6699448692230351e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "intermittent",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.06467191161700703,
+    "ci95": [
+      0.061195001136165016,
+      0.06814882209784903
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 50,
+    "scenario": "intermittent",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.00649722222222221,
+    "ci95": [
+      -0.006603920440676912,
+      -0.006390524003767508
+    ],
+    "wilcoxon_p": 1.7051415145988684e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "multiple",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.2951500000000001,
+    "ci95": [
+      0.29496304673116824,
+      0.2953369532688319
+    ],
+    "wilcoxon_p": 1.700842538286186e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "multiple",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.08979772079772079,
+    "ci95": [
+      0.08580820708137228,
+      0.0937872345140693
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "multiple",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.2953194444444444,
+    "ci95": [
+      0.29513308445713443,
+      0.2955058044317544
+    ],
+    "wilcoxon_p": 1.6933411124690758e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "multiple",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.0043277777777777715,
+    "ci95": [
+      -0.004479106391751157,
+      -0.004176449163804386
+    ],
+    "wilcoxon_p": 1.707294403549849e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "multiple",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07491737891737892,
+    "ci95": [
+      0.071355140046531,
+      0.07847961778822683
+    ],
+    "wilcoxon_p": 1.7322162331441138e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "multiple",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.004336111111111096,
+    "ci95": [
+      -0.004488440322385686,
+      -0.004183781899836507
+    ],
+    "wilcoxon_p": 1.6890670049981212e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "node_failure",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 2.777777777778212e-05,
+    "ci95": [
+      -9.157858163884929e-05,
+      0.00014713413719441354
+    ],
+    "wilcoxon_p": 0.28580358598461764,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "node_failure",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07970868347338934,
+    "ci95": [
+      0.0757833109411513,
+      0.08363405600562739
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "node_failure",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 2.777777777778212e-05,
+    "ci95": [
+      -9.157858163884929e-05,
+      0.00014713413719441354
+    ],
+    "wilcoxon_p": 0.28580358598461764,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "node_failure",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 1.1111111111106187e-05,
+    "ci95": [
+      -7.793245282253001e-05,
+      0.0001001546750447424
+    ],
+    "wilcoxon_p": 0.8499106827216265,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "node_failure",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.064890756302521,
+    "ci95": [
+      0.06137864178824566,
+      0.06840287081679634
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "node_failure",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 1.1111111111106187e-05,
+    "ci95": [
+      -7.793245282253001e-05,
+      0.0001001546750447424
+    ],
+    "wilcoxon_p": 0.8499106827216265,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "noise",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.005397222222222223,
+    "ci95": [
+      -0.00555112150454847,
+      -0.005243322939895977
+    ],
+    "wilcoxon_p": 1.7040659206732472e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "noise",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07726050420168067,
+    "ci95": [
+      0.07334387854488508,
+      0.08117712985847625
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "noise",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.012241666666666661,
+    "ci95": [
+      -0.012379948394575655,
+      -0.012103384938757667
+    ],
+    "wilcoxon_p": 1.6530995771390012e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "noise",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.0040083333333333394,
+    "ci95": [
+      -0.004130459628453545,
+      -0.003886207038213134
+    ],
+    "wilcoxon_p": 1.712686559944352e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "noise",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.062364145658263315,
+    "ci95": [
+      0.05886702480758409,
+      0.06586126650894254
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 50,
+    "scenario": "noise",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.004272222222222225,
+    "ci95": [
+      -0.0044211040313809034,
+      -0.0041233404130635466
+    ],
+    "wilcoxon_p": 1.7029908934686472e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "normal",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 3.0555555555544786e-05,
+    "ci95": [
+      -9.537547922188262e-05,
+      0.00015648659033297218
+    ],
+    "wilcoxon_p": 0.3658342917829085,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "normal",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07318888888888889,
+    "ci95": [
+      0.06926579235167431,
+      0.07711198542610347
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 50,
+    "scenario": "normal",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 3.0555555555544786e-05,
+    "ci95": [
+      -9.537547922188262e-05,
+      0.00015648659033297218
+    ],
+    "wilcoxon_p": 0.3658342917829085,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "normal",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 2.222222222220497e-05,
+    "ci95": [
+      -6.801327736638514e-05,
+      0.00011245772181079508
+    ],
+    "wilcoxon_p": 0.7720739950245594,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "normal",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.05839166666666666,
+    "ci95": [
+      0.05488860501538421,
+      0.061894728317949115
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 50,
+    "scenario": "normal",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 2.222222222220497e-05,
+    "ci95": [
+      -6.801327736638514e-05,
+      0.00011245772181079508
+    ],
+    "wilcoxon_p": 0.7720739950245594,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "packet_loss",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 5.277777777776086e-05,
+    "ci95": [
+      -0.00016365592149248287,
+      0.0002692114770480046
+    ],
+    "wilcoxon_p": 0.9017073935764908,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "packet_loss",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07940056022408964,
+    "ci95": [
+      0.07548211338714503,
+      0.08331900706103426
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 50,
+    "scenario": "packet_loss",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 5.277777777776086e-05,
+    "ci95": [
+      -0.00016365592149248287,
+      0.0002692114770480046
+    ],
+    "wilcoxon_p": 0.9017073935764908,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "packet_loss",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 5.833333333331581e-05,
+    "ci95": [
+      -0.00015851135863877554,
+      0.0002751780253054072
+    ],
+    "wilcoxon_p": 0.5968262873008015,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "packet_loss",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.06458263305322129,
+    "ci95": [
+      0.061075826640260004,
+      0.06808943946618257
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 50,
+    "scenario": "packet_loss",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 5.833333333331581e-05,
+    "ci95": [
+      -0.00015851135863877554,
+      0.0002751780253054072
+    ],
+    "wilcoxon_p": 0.5968262873008015,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 50,
+    "scenario": "sensor_bias",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.00430833333333334,
+    "ci95": [
+      -0.004437837217775156,
+      -0.004178829448891525
+    ],
+    "wilcoxon_p": 1.7116069924114545e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "sensor_bias",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07743417366946778,
+    "ci95": [
+      0.07352705071934505,
+      0.08134129661959051
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "sensor_bias",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.012455555555555543,
+    "ci95": [
+      -0.012586491032262248,
+      -0.012324620078848837
+    ],
+    "wilcoxon_p": 1.6912029309011072e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "sensor_bias",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.00416666666666667,
+    "ci95": [
+      -0.004269384239201232,
+      -0.004063949094132108
+    ],
+    "wilcoxon_p": 1.6944110497108893e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 50,
+    "scenario": "sensor_bias",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.06253221288515405,
+    "ci95": [
+      0.059041019354525374,
+      0.06602340641578273
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 50,
+    "scenario": "sensor_bias",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.004174999999999999,
+    "ci95": [
+      -0.004288039554492263,
+      -0.004061960445507735
+    ],
+    "wilcoxon_p": 1.7040659206732472e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "environment",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 1.805555555556282e-05,
+    "ci95": [
+      -9.086861803012043e-05,
+      0.00012697972914124607
+    ],
+    "wilcoxon_p": 0.7950728181542227,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "environment",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07417638888888888,
+    "ci95": [
+      0.07140629496783316,
+      0.0769464828099446
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "environment",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 1.805555555556282e-05,
+    "ci95": [
+      -9.086861803012043e-05,
+      0.00012697972914124607
+    ],
+    "wilcoxon_p": 0.7950728181542227,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "environment",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.01312083333333334,
+    "ci95": [
+      0.012689305967656708,
+      0.013552360699009973
+    ],
+    "wilcoxon_p": 1.6965526182776899e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "environment",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.04707083333333333,
+    "ci95": [
+      0.044591656263161514,
+      0.04955001040350515
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "environment",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.012531944444444436,
+    "ci95": [
+      0.012117701660777988,
+      0.012946187228110884
+    ],
+    "wilcoxon_p": 1.7116069924114545e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "high_latency",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 3.472222222222395e-05,
+    "ci95": [
+      -7.136009627686797e-05,
+      0.00014080454072131588
+    ],
+    "wilcoxon_p": 0.5161300409166061,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "high_latency",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07739888423988843,
+    "ci95": [
+      0.07466980601644488,
+      0.08012796246333198
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "high_latency",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 3.472222222222395e-05,
+    "ci95": [
+      -7.136009627686797e-05,
+      0.00014080454072131588
+    ],
+    "wilcoxon_p": 0.5161300409166061,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "high_latency",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.00032083333333334424,
+    "ci95": [
+      -0.00010315778246088823,
+      0.0007448244491275768
+    ],
+    "wilcoxon_p": 0.12369808130955351,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "high_latency",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.062433751743375177,
+    "ci95": [
+      0.060007053861850734,
+      0.06486044962489962
+    ],
+    "wilcoxon_p": 1.7333066441991056e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "high_latency",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.00032083333333334424,
+    "ci95": [
+      -0.00010315778246088823,
+      0.0007448244491275768
+    ],
+    "wilcoxon_p": 0.12369808130955351,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "intermittent",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.003613888888888883,
+    "ci95": [
+      -0.0037263014968943117,
+      -0.0035014762808834544
+    ],
+    "wilcoxon_p": 1.7094495621956687e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "intermittent",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07766688937141585,
+    "ci95": [
+      0.07495011879672238,
+      0.08038365994610931
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "intermittent",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.005695833333333333,
+    "ci95": [
+      -0.005807815674809776,
+      -0.0055838509918568905
+    ],
+    "wilcoxon_p": 1.7148474010332507e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "intermittent",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.0027347222222222265,
+    "ci95": [
+      -0.0031406767751854235,
+      -0.0023287676692590295
+    ],
+    "wilcoxon_p": 2.3361439013335064e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "intermittent",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.06249095261956461,
+    "ci95": [
+      0.06007564348195899,
+      0.06490626175717024
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "intermittent",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.0029638888888888883,
+    "ci95": [
+      -0.0033676218090703,
+      -0.002560155968707477
+    ],
+    "wilcoxon_p": 2.330408345001413e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "multiple",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.1988180555555556,
+    "ci95": [
+      0.1983838644352507,
+      0.1992522466758605
+    ],
+    "wilcoxon_p": 1.7289484360195754e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "multiple",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.08228832630098454,
+    "ci95": [
+      0.07964327083631746,
+      0.08493338176565161
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "multiple",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.1947361111111111,
+    "ci95": [
+      0.19430142331420047,
+      0.19517079890802175
+    ],
+    "wilcoxon_p": 1.7322162331441138e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "multiple",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.00044027777777778666,
+    "ci95": [
+      -0.002505387554963105,
+      0.0016248319994075315
+    ],
+    "wilcoxon_p": 0.24494642950594425,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "multiple",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.06736849507735584,
+    "ci95": [
+      0.06501579598321663,
+      0.06972119417149505
+    ],
+    "wilcoxon_p": 1.7322162331441138e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "multiple",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.00045277777777778344,
+    "ci95": [
+      -0.0025188131739526014,
+      0.0016132576183970346
+    ],
+    "wilcoxon_p": 0.23689898996010095,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "node_failure",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.012449999999999987,
+    "ci95": [
+      0.012340333733037417,
+      0.012559666266962557
+    ],
+    "wilcoxon_p": 1.7235135468062217e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "node_failure",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07730822873082288,
+    "ci95": [
+      0.07458544583429622,
+      0.08003101162734955
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "node_failure",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.012449999999999987,
+    "ci95": [
+      0.012340333733037417,
+      0.012559666266962557
+    ],
+    "wilcoxon_p": 1.7235135468062217e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "node_failure",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.0002472222222222209,
+    "ci95": [
+      -0.0001820667809242569,
+      0.0006765112253686986
+    ],
+    "wilcoxon_p": 0.6736662330225271,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "node_failure",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.06242538354253836,
+    "ci95": [
+      0.06000518270913858,
+      0.06484558437593814
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "node_failure",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.0002472222222222209,
+    "ci95": [
+      -0.0001820667809242569,
+      0.0006765112253686986
+    ],
+    "wilcoxon_p": 0.6736662330225271,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "noise",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.0026902777777777645,
+    "ci95": [
+      -0.002823410161515548,
+      -0.002557145394039981
+    ],
+    "wilcoxon_p": 1.724599381815356e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "noise",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07620223152022315,
+    "ci95": [
+      0.07347256858084514,
+      0.07893189445960117
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "noise",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.006099999999999991,
+    "ci95": [
+      -0.006201458390482665,
+      -0.005998541609517316
+    ],
+    "wilcoxon_p": 1.6986964471794946e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "noise",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.0016749999999999894,
+    "ci95": [
+      -0.002087601626676063,
+      -0.0012623983733239155
+    ],
+    "wilcoxon_p": 0.00027099193920585745,
+    "holm_p": 0.011923645325057727
+  },
+  {
+    "nodes": 100,
+    "scenario": "noise",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.0612887029288703,
+    "ci95": [
+      0.058861716072912795,
+      0.0637156897848278
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "noise",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.001801388888888881,
+    "ci95": [
+      -0.0022135914400720773,
+      -0.001389186337705685
+    ],
+    "wilcoxon_p": 9.235507046004979e-05,
+    "holm_p": 0.0043406883116223404
+  },
+  {
+    "nodes": 100,
+    "scenario": "normal",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 1.805555555556282e-05,
+    "ci95": [
+      -9.086861803012043e-05,
+      0.00012697972914124607
+    ],
+    "wilcoxon_p": 0.7950728181542227,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "normal",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07417638888888888,
+    "ci95": [
+      0.07140629496783316,
+      0.0769464828099446
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "normal",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 1.805555555556282e-05,
+    "ci95": [
+      -9.086861803012043e-05,
+      0.00012697972914124607
+    ],
+    "wilcoxon_p": 0.7950728181542227,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "normal",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.000315277777777793,
+    "ci95": [
+      -0.00010927471003615945,
+      0.0007398302655917455
+    ],
+    "wilcoxon_p": 0.2430470765621151,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "normal",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.05930138888888889,
+    "ci95": [
+      0.05683784824746546,
+      0.06176492953031232
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "normal",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.000315277777777793,
+    "ci95": [
+      -0.00010927471003615945,
+      0.0007398302655917455
+    ],
+    "wilcoxon_p": 0.2430470765621151,
+    "holm_p": 1.0
+  },
+  {
+    "nodes": 100,
+    "scenario": "packet_loss",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.008961111111111105,
+    "ci95": [
+      0.008682612717122019,
+      0.009239609505100192
+    ],
+    "wilcoxon_p": 1.7289484360195754e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "packet_loss",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07706834030683403,
+    "ci95": [
+      0.07433325174354967,
+      0.07980342887011839
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "packet_loss",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.008961111111111105,
+    "ci95": [
+      0.008682612717122019,
+      0.009239609505100192
+    ],
+    "wilcoxon_p": 1.7289484360195754e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "packet_loss",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": 0.010058333333333317,
+    "ci95": [
+      0.009138377328342934,
+      0.0109782893383237
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "packet_loss",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.06218549511854952,
+    "ci95": [
+      0.05975315830604022,
+      0.06461783193105881
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "packet_loss",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": 0.010058333333333317,
+    "ci95": [
+      0.009138377328342934,
+      0.0109782893383237
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "sensor_bias",
+    "baseline": "conventional",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.00215,
+    "ci95": [
+      -0.002258456985099259,
+      -0.002041543014900741
+    ],
+    "wilcoxon_p": 1.7289484360195754e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "sensor_bias",
+    "baseline": "conventional",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.07629986052998607,
+    "ci95": [
+      0.07357843401668404,
+      0.07902128704328809
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "sensor_bias",
+    "baseline": "conventional",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.006231944444444452,
+    "ci95": [
+      -0.00634002236316118,
+      -0.006123866525727725
+    ],
+    "wilcoxon_p": 1.724599381815356e-06,
+    "holm_p": 0.0002087943445778436
+  },
+  {
+    "nodes": 100,
+    "scenario": "sensor_bias",
+    "baseline": "static",
+    "metric": "reliable_yield",
+    "n_pairs": 30,
+    "mean_difference": -0.0017680555555555624,
+    "ci95": [
+      -0.0021899058532619644,
+      -0.0013462052578491605
+    ],
+    "wilcoxon_p": 0.0001872504638508376,
+    "holm_p": 0.008426270873287692
+  },
+  {
+    "nodes": 100,
+    "scenario": "sensor_bias",
+    "baseline": "static",
+    "metric": "fpr",
+    "n_pairs": 30,
+    "mean_difference": 0.06137517433751743,
+    "ci95": [
+      0.058956078860803666,
+      0.06379426981423118
+    ],
+    "wilcoxon_p": 1.862645149230957e-09,
+    "holm_p": 3.0174851417541504e-07
+  },
+  {
+    "nodes": 100,
+    "scenario": "sensor_bias",
+    "baseline": "static",
+    "metric": "pdr",
+    "n_pairs": 30,
+    "mean_difference": -0.0017805555555555593,
+    "ci95": [
+      -0.002200924158894573,
+      -0.0013601869522165454
+    ],
+    "wilcoxon_p": 0.00015911922703869464,
+    "holm_p": 0.007319484443779953
+  }
+]

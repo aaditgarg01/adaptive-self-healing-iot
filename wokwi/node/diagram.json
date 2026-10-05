@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "author": "Adaptive Self-Healing IoT",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 20, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht", "top": -70, "left": 260, "attrs": { "temperature": "27", "humidity": "58" } },
+    { "type": "wokwi-resistor", "id": "pullup", "top": -90, "left": 155, "attrs": { "value": "10000" } },
+    { "type": "wokwi-led", "id": "green", "top": 100, "left": 270, "attrs": { "color": "green", "label": "VALID SAMPLE" } },
+    { "type": "wokwi-resistor", "id": "green_r", "top": 135, "left": 160, "attrs": { "value": "220" } },
+    { "type": "wokwi-led", "id": "red", "top": 200, "left": 270, "attrs": { "color": "red", "label": "READ ERROR / TEST" } },
+    { "type": "wokwi-resistor", "id": "red_r", "top": 235, "left": 160, "attrs": { "value": "220" } },
+    { "type": "wokwi-pushbutton", "id": "button", "top": 310, "left": 245, "attrs": { "color": "blue", "label": "LED TEST (STAGE 1)" } }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "dht:VCC", "red", [] ],
+    [ "esp:GND.1", "dht:GND", "black", [] ],
+    [ "esp:D15", "dht:SDA", "green", [] ],
+    [ "esp:3V3", "pullup:1", "red", [] ],
+    [ "pullup:2", "dht:SDA", "green", [] ],
+    [ "esp:D18", "green_r:1", "green", [] ],
+    [ "green_r:2", "green:A", "green", [] ],
+    [ "green:C", "esp:GND.1", "black", [] ],
+    [ "esp:D19", "red_r:1", "red", [] ],
+    [ "red_r:2", "red:A", "red", [] ],
+    [ "red:C", "esp:GND.1", "black", [] ],
+    [ "esp:D23", "button:1.l", "blue", [] ],
+    [ "button:2.l", "esp:GND.1", "black", [] ]
+  ],
+  "serialMonitor": { "display": "always", "newline": "lf" }
+}

@@ -1,0 +1,2 @@
+# Python CSV exports use standard CRLF record separators.
+*.csv whitespace=cr-at-eol
